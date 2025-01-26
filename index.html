@@ -15,8 +15,8 @@
 </head>
 <body class="font-[Manrope,serif]">
   <main class="max-w-screen-xl mx-auto px-16 lg:px-26 py-5">
-    <header>
-      <nav class="flex justify-center items-center gap-10 mx-auto">
+    <header class="align-middle">
+      <nav class="lg:flex justify-center items-center gap-10 mx-auto">
         <div class="flex-col justify-evenly items-center sm:text-base">
           <h1 class="font-extrabold text-2xl md:text-7xl lg:text-7xl">It's good<br>
             tea time at The<br>Tea House</h1>
@@ -25,9 +25,16 @@
           <button class="bg-linear-to-r from-orange-500 to-red-700 w-38 p-2 text-white rounded-xl">Explore More <i
               class="fa-solid fa-arrow-up-right-from-square"></i></button>
         </div>
-        <div class="picture">
-          <div><img src="./images/banner.png" alt=""></div>
-          <div></div>
+        <div class="flex items-center relative">
+          <div class=""><img class="w-full" src="./images/banner.png" alt=""></div>
+          <!-- card section -->
+          <div class="absolute flex bg-white shadow-xl px-2 py-2 rounded-xl md:px-10 lg:py-4 bottom-8 left-28 sm:bottom-8 right--50">
+            <div class="text-orange-700"><i class="fa-solid fa-star"></i></div>
+            <div class="ml-2 text-red">
+              <h3 class="lg:2xl font-bold">500</h3>
+              <p class="font-bold text-xs text-gray-500">Trust Pilot Ratings</p>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
