@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +14,7 @@
     rel="stylesheet">
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
+
 <body class="font-[Manrope,serif]">
   <main class="max-w-screen-xl mx-auto px-16 lg:px-26 py-5">
     <header>
@@ -28,7 +30,8 @@
         <div class="flex items-center relative">
           <div class=""><img class="w-full" src="./images/banner.png" alt=""></div>
           <!-- card section -->
-          <div class="absolute flex items-center bg-white shadow-xl rounded-xl px-2 py-4 bottom-3 left-10 lg:px-8 lg:py-4 lg:left-30 md:px-6 md:py-4 md:left-40">
+          <div
+            class="absolute flex items-center bg-white shadow-xl rounded-xl px-2 py-4 bottom-3 left-10 lg:px-8 lg:py-4 lg:left-30 md:px-6 md:py-4 md:left-40">
             <div class="text-orange-600 lg:text-xl"><i class="fa-solid fa-star"></i></div>
             <div class="ml-2">
               <h3 class="md:text-2xl lg:text-3xl font-extrabold">5.00</h3>
@@ -41,34 +44,74 @@
     <!-- Feature section -->
     <section>
       <div class="text-center mb-8 mt-10">
-      <h2 class="text-xl lg:text-4xl font-extrabold">Our Featured Products</h2>
-      <p class="lg:w-2/3 mx-auto text-gray-600 text-xs lg:sm mb-8 lg:mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
-        form,
-        by injected humour,words which don't look even slightly believable.</p></div>
+        <h2 class="text-xl lg:text-4xl font-extrabold">Our Featured Products</h2>
+        <p class="lg:w-2/3 mx-auto text-gray-600 text-xs lg:sm mb-8 lg:mb-12">There are many variations of passages of
+          Lorem Ipsum available, but the majority have suffered alteration in some
+          form,
+          by injected humour,words which don't look even slightly believable.</p>
+      </div>
       <!-- product cards -->
       <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6 text-center">
         <div class="bg-linear-to-r from-gray-200 to-white-300 shadow-lg lg:max-w-full rounded-xl mb-4">
           <img class="lg:max-w-full mx-auto" src="./images/tea-1.png" alt="">
           <h3 class="text-center text-xl font-bold">Milk Tea</h3>
-          <p class="text-center text-xs font-bold text-gray-500 mx-auto mb-4">Creamer could be replaced by fresh milk</p>
+          <p class="text-center text-xs font-bold text-gray-500 mx-auto mb-4">Creamer could be replaced by fresh milk
+          </p>
         </div>
         <div class="bg-linear-to-r from-gray-200 to-white-300 shadow-lg lg:max-w-full rounded-xl mb-4">
           <img class="lg:max-w-full mx-auto" src="./images/tea-2.png" alt="">
           <h3 class="text-center text-xl font-bold">Black Tea</h3>
-          <p class="text-center text-xs font-bold text-gray-500 mx-auto mb-4">Creamer could be replaced by fresh milk</p>
+          <p class="text-center text-xs font-bold text-gray-500 mx-auto mb-4">Creamer could be replaced by fresh milk
+          </p>
         </div>
         <div class="bg-linear-to-r from-gray-200 to-white-300 shadow-lg lg:max-w-full rounded-xl mb-4">
           <img class="lg:max-w-full mx-auto" src="./images/tea-3.png" alt="">
           <h3 class="text-center text-xl font-bold">Lemon Tea</h3>
-          <p class="text-center text-xs font-bold text-gray-500 mx-auto mb-4">Creamer could be replaced by fresh milk</p>
+          <p class="text-center text-xs font-bold text-gray-500 mx-auto mb-4">Creamer could be replaced by fresh milk
+          </p>
         </div>
-        <div class="bg-linear-to-r from-gray-200 to-white-300 shadow-lg lg:max-w-full rounded-xl mb-4">
+        <div class="bg-linear-to-b from-gray-200 to-white-300 shadow-lg lg:max-w-full rounded-xl mb-4">
           <img class="lg:max-w-full mx-auto" src="./images/tea-4.png" alt="">
           <h3 class="text-center text-xl font-bold">Green Tea</h3>
-          <p class="text-center text-xs font-bold text-gray-500 mx-auto mb-4">Creamer could be replaced by fresh milk</p>
+          <p class="text-center text-xs font-bold text-gray-500 mx-auto mb-4">Creamer could be replaced by fresh milk
+          </p>
         </div>
       </div>
     </section>
+    <!-- Tea-Presentation -->
+    <section>
+      <div class="mt-20 grid grid-cols-1 lg:grid-cols-2 ">
+        <!-- image part  -->
+        <div class="grid grid-cols-2 grid-rows-3 gap-y-4 gap-x-4 lg:w-5/6">
+          <div class="bg-linear-to-r from-red-100 to-orange-100 rounded-xl"></div>
+          <div class="bg-linear-to-r from-red-100 to-orange-100 rounded-xl row-span-2">
+            <img class="mx-auto p-3" src="./images/fresh-1.png" alt="">
+          </div>
+          <div class="bg-linear-to-r from-gray-200 to-blue-200 rounded-xl row-span-2">
+            <img class="mx-auto p-3" src="./images/fresh-2.png" alt="">
+          </div>
+          <div class="bg-linear-to-r from-red-100 to-orange-100 rounded-xl"></div>
+        </div>
+        <!-- info part -->
+        <div class="mt-10 lg:mt-0">
+          <h2 class="text-2xl lg:text-4xl font-extrabold">Great Tea, Freshly<br> Presented</h2>
+          <p class="text-gray-600 text-xs lg:mt-10 w-5/6 sm:mb-8 lg:mb-12">The meaning of gong cha is chinese is to provide the best tea to emperor from all possessions . It
+            represents the
+            highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its
+            custoers because
+            of good words of mouth and unique customized service orginated from Taiwan.</p>
+          <h4 class="lg:text-xl text-lg font-bold mb-4">Unique Taste</h4>
+          <p class="text-gray-600 text-xs lg:mt-10 w-1/3 sm:mb-4 lg:mb-6">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+          <h4 class="lg:text-xl text-lg font-bold mb-4">Premium Test</h4>
+          <p class="text-gray-600 text-xs lg:mt-10 w-1/3 sm:mb-8 lg:mb-12">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+        </div>
+      </div>
+    </section>
+    <!-- clint section -->
+     <section>
+        
+     </section>
   </main>
 </body>
+
 </html>
